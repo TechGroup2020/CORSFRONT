@@ -7,6 +7,7 @@ Creating new image
 Creating new image4
 Creating new image 5
 unable to copy
+github error
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Development server
