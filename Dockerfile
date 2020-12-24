@@ -16,7 +16,7 @@ COPY ./package.json /opt
 CMD npm install
 COPY . /opt/del
 CMD ng build
-COPY dist/. /opt/tomcat/webapps/one
+ADD dist/. /opt/tomcat/webapps/one
 RUN sed -i 's/port="8080"/port="5050"/' /opt/tomcat/conf/server.xml
 WORKDIR /opt/tomcat/bin
 EXPOSE 5050
